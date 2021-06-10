@@ -20,8 +20,8 @@ html , body {
     flex-direction: column;
     position: fixed;
     border-radius: 1rem ;
-    left: 25px;
-    padding: 10px;
+    left: 1.563rem;
+    padding: 0.625rem;
     color: white;
     background-color:rgb(227,57,77);
     opacity: 0.9;
@@ -31,8 +31,8 @@ html , body {
     display: flex;
     flex-direction: column;
     border-radius: 1rem ;
-    left: 25px;
-    padding: 10px;
+    left: 1.563rem;
+    padding: 0.625rem;
     
 }
 
@@ -101,15 +101,15 @@ figure {
 }
 
 .foto_kit {
-    margin-right: 1rem;
     margin-top: 1rem;
-    margin-left: 0.5rem;
+    width: 22.5rem;
+    height: auto;
 }
 
 
 .foto_wpp {
-    height: 640px;
-    width: 360px;
+    height: 40rem;
+    width: 22.5rem;
 }
 
 ul.fotos{
@@ -122,7 +122,7 @@ ul.fotos{
 
 ul.fotos li {
 	padding: .5em 0;
-	border-bottom: 1px solid #CCC;
+	border-bottom: 0.063rem solid #CCC;
 }
 .b {
     margin: 1rem;
@@ -339,4 +339,8 @@ a.homewpp {
 .gif{
     width: 100%; 
     height: auto;
+}
+
+.adjust{
+    width: 22.5rem;
 }
