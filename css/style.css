@@ -1,0 +1,342 @@
+html , body {
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center; 
+    width: 100%;
+    color: black;
+    background-color:rgb(246,234,221);
+}
+
+.content-box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.flutuantes {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    border-radius: 1rem ;
+    left: 25px;
+    padding: 10px;
+    color: white;
+    background-color:rgb(227,57,77);
+    opacity: 0.9;
+}
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem ;
+    left: 25px;
+    padding: 10px;
+    
+}
+
+.flutuantes .btn {
+    display: flex;
+    flex-direction: row;
+}
+
+.contato .btn {
+    display: flex;
+    flex-direction: row;
+    
+
+}
+.geral {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.color {
+    color: rgb(227, 57, 77);
+}
+
+.geral .textos {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+
+}
+
+.first {
+    display:flex;
+    justify-content: center;
+    align-self: center;
+    width: 25%;
+    font-weight: bold;
+    font-size: xX-large;
+    white-space: nowrap;
+}
+
+figure {
+    display:flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.foto_perfil {
+    position:relative;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    height:8rem;
+    width: 8rem;
+    right: 0.1rem;
+    border-radius: 50%;
+    padding-right: 0.8rem;
+}
+
+.fotos {
+    margin-right: 1rem;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+
+.foto_kit {
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+}
+
+
+.foto_wpp {
+    height: 640px;
+    width: 360px;
+}
+
+ul.fotos{
+	list-style: none;
+	padding: 0;
+	width: 100%;
+}
+
+
+
+ul.fotos li {
+	padding: .5em 0;
+	border-bottom: 1px solid #CCC;
+}
+.b {
+    margin: 1rem;
+    width: 10rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    border: 0.1rem solid black;
+    padding: 0.5rem;
+    font-size: 2rem;
+    text-decoration: none;
+    border-radius: .5rem;
+    height: 3rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+    background-color: rgb(1,177,224);
+    font-family: 'Noto Sans JP', sans-serif; 
+    text-decoration: none;
+}
+
+.b:hover {
+    background-color: rgb(227,57,77);
+    color: black;
+}
+
+.b:active {
+    border-top-color: black;
+    border-right-color: rgb(114,39,8);
+    border-bottom-color: rgb(114,39,8);  
+    border-left-color: black;
+    top: 0.1rem;
+    left: 0.1rem;
+}
+a {
+    margin-left: 1rem;
+    width: 20rem;
+    padding-bottom: 0.5rem;
+    font-size: 2rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-family: 'Noto Sans JP', sans-serif; 
+    background-color: rgb(246,234,221);
+    text-decoration: none;
+    
+}
+.geral a {
+    margin: 0;
+}
+
+
+.c {
+    margin-left: 1rem;
+    border-radius: 1rem;
+    margin: 1rem;
+    width: 5rem;
+    padding: 1rem;
+    font-size: 2rem;
+    height: 1rem;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(246,234,221);
+    white-space: nowrap;
+    
+}
+.f {
+    margin-left: 1rem;
+    border-radius: 1rem;
+    margin: 1rem;
+    width: 5rem;
+    padding: 1rem;
+    font-size: 2rem;
+    height: 1rem;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color:rgb(227,57,77);
+    opacity: 0.9;
+    white-space: nowrap;
+    
+}
+
+
+h1 {
+    display:flex;
+    justify-content: center;
+    align-self: center;
+    width: 50%;
+    font-weight: bold;
+    font-size: xx-large;
+    margin-top: 1rem;
+    padding: 1rem;
+    font-family: 'Noto Sans JP', sans-serif;
+    white-space: nowrap;
+}
+
+h2 {
+    display:flex;
+    justify-content: center;
+    align-self: center;
+    font-weight: bold;
+    font-size: x-large;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0.8rem;
+    color:black;
+}
+
+
+p {
+    display:flex;
+    justify-content: center;
+    width: 15rem;
+    align-self: center;
+    font-size: large;
+    font-family: 'Nunito Sans', serif;  
+    color: black;
+}
+
+
+.ajuste {
+    
+    margin: 0rem;
+    display:flex;
+    justify-content: center;
+    align-self: center;
+    font-size: x-large;
+    font-family: 'Noto Sans JP', sans-serif; 
+    padding: 1rem;
+}
+
+ul.separator {
+	list-style: none;
+	width: 100%;
+}
+
+li{
+    margin: 1rem;
+}
+
+ul.separator li {
+    margin-left: 1rem;
+    max-width: 100%;
+	border-bottom: 0.08rem solid rgb(255, 255, 255);
+    
+}
+.tamanho_imagem {
+    display: flex;
+    justify-content: flex-start;
+    width: 3rem;
+    height: 3rem;
+}
+
+.home {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1.8rem;
+    height: 1.8rem;
+    
+}
+
+a.home {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    margin-top: 2rem;
+    padding: 0;
+    
+}
+
+.homewpp {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+a.homewpp {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    margin-top: 2rem;
+    padding: 0;
+    background-color: rgb(7, 94, 84);
+    
+}
+
+.inicio{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items:center;
+    flex-grow: 3;
+    width: 100%;;
+    margin-top: 8rem;
+}
+
+.bemvinda {
+    font-size: 2rem;
+    padding: 0.8rem;
+    display:flex;
+    justify-content: center;
+    align-self: center;
+    font-family: 'Noto Sans JP', sans-serif; 
+    color: black;
+    border-left:  0.1rem solid black;
+}
+
+.gif{
+    width: 100%; 
+    height: auto;
+}
